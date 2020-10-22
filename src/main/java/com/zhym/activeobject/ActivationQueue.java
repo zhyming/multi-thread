@@ -13,8 +13,8 @@ public class ActivationQueue {
 
     private final LinkedList<MethodRequest> methodQueue;
 
-    public ActivationQueue(LinkedList<MethodRequest> methodQueue) {
-        this.methodQueue = methodQueue;
+    public ActivationQueue() {
+        this.methodQueue = new LinkedList<>();
     }
 
     public synchronized void put(MethodRequest request) {

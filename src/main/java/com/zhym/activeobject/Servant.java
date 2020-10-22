@@ -5,7 +5,7 @@ package com.zhym.activeobject;
  * @author: zhym
  * @time: 2020/10/22 0022 0:34
  */
-public class Servant implements ActiveObject {
+ class Servant implements ActiveObject {
     @Override
     public Result makeString(int count, char fillChar) {
 
